@@ -1,0 +1,47 @@
+body {
+    width: 50em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid blue;
+    padding: 1em;
+}
+.nobbi {
+    color: red;
+}
+.emoll {
+    color: blue;
+}
+.undirfyrirsogn {
+    color: darkred;
+}
+.listi {
+    color: green;
+}
+.elli {
+    color: red;
+}
+.blatt {
+    color: blue;
+}
+.textaklasi {
+    color: blue;
+}
+.drasl {
+    color: red;
+}
+a {
+    color: red;
+}
+a:visited {
+    color: purple;
+    font-family: cursive;
+}
+a:hover {
+    color: royalblue;
+    font-weight: bold;
+}
+a:active {
+    font-family: cursive;
+}
+.titill {
+    color: navy;
+}
