@@ -1,0 +1,123 @@
+body {
+    max-width: 60em;
+    background-color: #B4C5E4;
+    margin: 0 auto;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"    
+        "topnav"
+        "content"
+        "footer";
+}
+header {
+    padding: 1em 0;
+    background-color: #204AE5;
+    text-align: center;
+    color: rgb(0, 51, 7);
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+    background-color: #090C9B;
+    color: rgb(215, 229, 238);
+    text-align: center;
+}
+header h1 {
+    font-family: 'Patua one', 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 60px;
+}
+nav {
+    background-color: #090C9B;
+    color: rgb(93, 126, 153);
+}
+.topnav a {
+    color: rgb(215, 229, 238);
+}
+div {
+    background-color: #7aff7a;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "vinstri midja haegri";
+    background-color: #FBFFF1;
+}
+
+/* dálkar í content */
+
+.midja {
+    grid-area: midja;
+    padding: 0 1em;
+}
+.vinstri {
+    grid-area: vinstri;
+    padding: 0 1em;
+    line-height: 1.7;
+}
+.haegri {
+    grid-area: haegri;
+    padding: 0 1em;
+    margin: auto;
+}
+p {
+    
+}
+/* 
+button {
+    background-color: #7aff7a;
+    border: none;
+    color: rgb(0, 51, 7);
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
+*/
+.topnav {
+    padding: .5em;
+}
+.topmenu a {
+    padding: .5em;
+    text-decoration: none;
+}
+.topmenu a:hover, .topmenu a:active {
+    background-color: #73ceba;
+    color: #363753;
+}
+.topmenu a:visited {
+    color: rgb(215, 229, 238);
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    
+}
+.topmenu a.virkur {
+    color: #363753;
+    background-color: #73ceba;
+}

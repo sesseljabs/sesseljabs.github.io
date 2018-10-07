@@ -1,0 +1,117 @@
+body {
+    max-width: 60em;
+    background-color: #b5ffa6;
+    margin: 0 auto;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.2;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "header"
+        "topnav"
+        "content"
+        "footer";
+}
+header {
+    padding: 1em 0;
+    background-color: rgb(30, 163, 30);
+    text-align: center;
+    color: rgb(0, 51, 7);
+}
+header {
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+    background-color: rgb(30, 163, 30);
+    text-align: center;
+}
+header h1 {
+    font-family: Lobster;
+    font-weight: 100;
+    font-size: 50px;
+}
+nav {
+    background-color: #7aff7a;
+}
+div {
+    background-color: #7aff7a;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "vinstri midja haegri";
+}
+
+/* dálkar í content */
+
+.midja {
+    grid-area: midja;
+    padding: 0 1em;
+}
+.vinstri {
+    grid-area: vinstri;
+    padding: 0 1em;
+}
+.haegri {
+    grid-area: haegri;
+    padding: 0 1em;
+}
+
+/* 
+button {
+    background-color: #7aff7a;
+    border: none;
+    color: rgb(0, 51, 7);
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
+*/
+.topnav {
+    padding: .5em;
+}
+.topmenu a {
+    padding: .5em;
+    text-decoration: none;
+    color: green;
+}
+.topmenu a:hover, .topmenu a:active {
+    background-color: yellow;
+    color: brown;
+}
+.topmenu a:visited {
+    color: green;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    
+}
+.topmenu a.virkur {
+    color: brown;
+    background-color: yellow;
+}
