@@ -1,0 +1,114 @@
+body {
+    max-width: 60em;
+    background-color: #DD9844;
+    margin: 0 auto;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.2;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "header"
+        "topnav"
+        "content"
+        "footer";
+}
+header {
+    padding: 1em 0;
+    background-color: #D34E24;
+    text-align: center;
+    color: rgb(53, 39, 17);
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+    background-color: #38726C;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 70px;
+}
+nav {
+    background-color: #38726C;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "vinstri midja haegri";
+    background-color: #EFD780;
+    color: rgb(53, 39, 17);
+}
+
+/* dálkar í content */
+
+.midja {
+    grid-area: midja;
+    padding: 0 1em;
+}
+.vinstri {
+    grid-area: vinstri;
+    list-style: none;
+    line-height: 1.5;
+}
+.haegri {
+    grid-area: haegri;
+    padding: 0 1em;
+    text-align: center;
+}
+.vinstri ul {
+    list-style: none;
+}
+.vinstri h3 {
+    padding: 0 1em;
+}
+.haegri img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 100%;
+}
+.midja h2 {
+    text-align: center;
+}
+.midja p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.topnav {
+    padding: .5em;
+}
+.topmenu a {
+    padding: .5em;
+    text-decoration: none;
+    color: #F7F052;
+}
+.topmenu a:hover, a:active {
+    background-color: #F7F052;
+    color: rgb(53, 39, 17) !important;
+}
+.topmenu a.virkur {
+    color: rgb(53, 39, 17);
+    background-color: #F7F052;
+}

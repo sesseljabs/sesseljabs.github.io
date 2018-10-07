@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+}
+.col1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section {
+    border: 1px solid black;
+    padding: 1em;
+}
+header h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sans-serif {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.monotype {
+ font-family: 'Courier New', Courier, monospace;
+}
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linotype {
+    font-family: Palatino linotype;
+}
+.small {
+    font-size: 0.6em;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+}
+.poster {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
+    text-align: center;
+    background-color: lightgreen;
+}
+.raudur {
+    color: red;
+}
+.nopes {
+    background-color: blueviolet;
+}

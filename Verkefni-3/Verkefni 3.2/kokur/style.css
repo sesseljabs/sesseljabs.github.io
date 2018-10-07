@@ -1,0 +1,126 @@
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "header"    
+        "topnav"
+        "content"
+        "footer";
+    background-image: url("mixed-cookies-falling-down-on-white-background_v3o6fvkdl__F0004.png");
+    background-color: antiquewhite;
+}
+header {
+    padding: 1em 0;
+    background-color: #DBB957;
+    text-align: center;
+    color: rgb(0, 51, 7);
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+    padding: .5em;
+}
+.content {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+    text-align: center;
+    font-family: 'Lobster', 'Times New Roman', Times, serif;
+    background-color: #DBB957;
+}
+header h1 {
+    font-family: 'Charmonman', 'Lobster', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+nav {
+    background-color: #C4AD83;
+}
+div {
+    background-color: #7aff7a;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "vinstri midja haegri";
+    background-color: rgba(241, 247, 187, 0.74);
+}
+
+/* dálkar í content */
+
+.midja {
+    grid-area: midja;
+    padding: 0 1em;
+}
+.vinstri {
+    grid-area: vinstri;
+    padding: 0 1em;
+}
+.haegri {
+    grid-area: haegri;
+    line-height: 1.65;
+}
+.midja h3{
+    text-align: center;
+}
+.midja img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* 
+button {
+    background-color: #7aff7a;
+    border: none;
+    color: rgb(0, 51, 7);
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
+*/
+.topmenu a:hover, .topmenu a:active {
+    background-color: #ffe137;
+    color: #3f2508;
+}
+.topmenu a:visited {
+    color: #3f2508;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    
+}
+
+.topmenu a {
+    padding: .5em;
+    text-decoration: none;
+    color: #3f2508;
+}
+.topmenu a.virkur {
+    color: #3f2508;
+    background-color: #ffe137;
+}
