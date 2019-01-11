@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60em;
+}
+
+h1{
+    border: 3px solid green;
+}
+
+.box{
+    border: 6px solid red;
+    padding: 2em;
+    margin: 2em;
+    color: red;
+}
+.box3 {
+    border: 3px dashed blue;
+    padding: 10px;
+    color: Blue;
+}
+.listi1 li {
+    border: 3px dashed green;
+    padding: 1em;
+}
+.listi2 li {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+    color: red;
+}
+.listi3 li {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
+.box21 {
+    border: 1px solid;
+    float: left;
+    width: 33.33%;
+    padding: 1em;
+}
+.box22 {
+    border: 1px solid;
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+

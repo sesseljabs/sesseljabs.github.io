@@ -1,0 +1,196 @@
+* {box-sizing: border-box;}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+}
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: #29524A;
+    color: #C5AFA0;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+header h1 {
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Lobster', cursive;
+}
+
+.inheader {
+    padding: 1em;
+}
+
+.titlelogo {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.title {
+    grid-auto-columns: 2;
+}
+.logo {
+    grid-auto-columns: 1;
+    width: 100%;
+    height: auto;
+}
+@viewport {
+    width: device-width;
+    zoom: 1.0 ;
+}
+
+
+/* TOPNAV */
+.topnav ul a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(224, 197, 178);
+}
+.topnav ul a:hover, a:active {
+    color: rgb(250, 241, 240);
+}
+
+.topnav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*MAIN CONTENT */
+
+
+.myndir {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    max-width: 70vw;
+}
+.tonlist {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.kort {
+    width: 100%;
+    height: auto;
+}
+
+.myndband {
+    width: 100%;
+    height: 315px;
+    padding: 5px;
+    max-width: 90vw;
+}
+
+blockquote audio {
+    max-width: 60vw;
+}
+
+/* GRID */
+
+.grid1 {
+    grid-column: 1;
+    text-align: center;
+}
+.grid2 {
+    grid-column: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 2em;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.grid3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.mmynd1 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.mynd2 {
+    grid-column: 2;
+}
+.grid4 {
+    grid-column: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 2em;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.grid5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.listi {
+    grid-column: 2;
+}
+.utube {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #29524A;
+}
+
+footer p {
+    padding: .5em;
+    text-align: center;
+}
+
+@media screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em; 
+        background-color: #E9BCB7;
+        padding: 2em;
+        color: #06070E;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    main {
+        padding: 2em;
+        background-color: #E9BCB7;
+    }
+}
+
+@media screen and (max-width: 48em) {
+    main {
+        background-color: #E9BCB7;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    main {
+        padding: 1.5em;
+        background-color: #E9BCB7;
+    }
+    .topnav ul {
+        flex-flow: column;
+    }
+    header {
+        max-width: 100%;
+        width: 100%;
+    }
+}

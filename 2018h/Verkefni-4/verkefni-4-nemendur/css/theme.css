@@ -1,0 +1,190 @@
+* { box-sizing: border-box }
+
+body {
+    background-color: #0064ce;
+    background-image: linear-gradient(to bottom, #0064ce 87%, #001933);
+    color: #444;
+    font: 400 1em/1.5 "Open Sans", sans-serif;
+
+}
+.titill {
+    font-weight: 300;
+}
+.col1-1 h1 {
+    font-weight: 300;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+
+/*bakgrunnar - 100vh leit ekki út fyrir að vera nóg svo ég hafði 102vh*/
+.beige {
+    background-image: linear-gradient(to bottom, #f7d37e, #f6f1d3);
+    padding: 1em;
+    height: 102vh;
+}
+.beigebg {
+    background-image: linear-gradient(to bottom, #f7d37e, #f6f1d3);
+    padding: 1em;
+    text-align: center;
+}
+
+/*efst*/
+header {
+    margin: 0;
+    padding: 2em;
+    color: #ffffff;
+    width: 100%;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin: 2em 0 1em 0;
+}
+
+.col1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col1-1 {
+    grid-column: 1;
+}
+.col1-2 {
+    grid-column: 2;
+    text-align: right;
+}
+.topnav a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.topnav a:hover, a:active {
+    color: #ffd077;
+}
+.innermenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-color: #0064CE;
+    /*round corners*/
+    border-radius: 5px;
+}
+.innermenu a {
+    display: inline-block;
+    padding: .4em 2.2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-right: 1px solid white;
+    justify-content: center;
+}
+.innermenu a:last-child {
+    border: 0;
+}
+.innermenu a:hover, a:active {
+    background-color: #003f7e;
+    color: #ffeed9;
+}
+main h1 {
+    font-weight: 300;
+    color: #003163;
+}
+.tenglar {
+    padding-top: 4em;
+}
+.verkefni {
+    text-align: right;
+
+}
+blockquote {
+    padding: 1em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+.topnav {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 3em;
+}
+.topper {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    color: blue;
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    width: 60px;
+    padding: .2em .2em;
+    text-align: center;
+    text-decoration: none;
+}
+.topper:active, .topper:hover {
+    background-color: #0064ce;
+    color: #ffffff;
+}
+footer a {
+    color: white;
+}
+footer a:visited {
+    color: antiquewhite;
+}
+footer a:hover, a:active {
+    color: #ffd077;
+}
+footer li {
+    list-style-type: none;
+    padding-bottom: .25em;
+}
+dt {
+    color: wheat;
+}
+/* Grid */
+footer {
+    display: grid;
+    grid-template-columns: 1.55fr 1.2fr 1fr;
+    padding: 2em;
+    color: white;
+}
+.col-2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.col-3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.col-4 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.cop {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    text-align: justify;
+    line-height: 25px;
+}
+.grid3 h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #003f7e;
+}
+.grid3 blockquote {
+    text-align: center;
+}
