@@ -20,3 +20,6 @@ git branch - sýnir allar greinar
 5. Hverjir eru helstu kostir við að nota GIT?
 - það er auðveldara að halda utan um breytingar og geymir aukaafrit af skrám ef eitthvað skyldi koma fyrir þær í local vélinni
 
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+- að minnsta kosti í lok hvers vinnudags
+
