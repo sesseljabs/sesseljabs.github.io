@@ -8,3 +8,8 @@ mkdir - býr til möppu
 git clone - tekur afrit af github repository
 git status - sýnir stöðuna á breytingum milli local vélarinnar og repositoryinu
 git diff - sýnir nýjar breytingar á skrám
+
+3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+git log - sýnir allt sem þú hefur gert
+git checkout - skipta um grein 
+git branch - sýnir allar greinar
