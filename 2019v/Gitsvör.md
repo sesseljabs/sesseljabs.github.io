@@ -20,3 +20,5 @@ git branch - sýnir allar greinar
 5. Hverjir eru helstu kostir við að nota GIT?
 - það er auðveldara að halda utan um breytingar og geymir aukaafrit af skrám ef eitthvað skyldi koma fyrir þær í local vélinni
 
+Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
+ - Mér finnst Git hljóma frekar sniðugt en frekar flókið að læra á það. En ef maður ætlar að nota Git mikið er það þess virði.  
