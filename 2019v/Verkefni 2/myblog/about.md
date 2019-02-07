@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: "default"
 title: About
 ---
-# Aboutt page
+# About page
 
 This page tells you a little bit about me.
