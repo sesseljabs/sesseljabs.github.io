@@ -1,19 +1,23 @@
+title: myblog
+baseurl: "/myblog"
+url: "https://sesseljabs.github.io"
+
 collections:
   authors:
     output: true
 
 defaults:
   - scope:
-      path: ""
+      path: "/myblog"
       type: "authors"
     values:
       layout: "author"
   - scope:
-      path: ""
+      path: "/myblog"
       type: "posts"
     values:
       layout: "post"
   - scope:
-      path: ""
+      path: "/myblog"
     values:
       layout: "default"
