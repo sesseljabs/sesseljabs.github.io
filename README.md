@@ -9,3 +9,4 @@
 * [Verkefni 3.2](2018h/Verkefni-3/Verkefni-3.2/index.html)
 * [Verkefni 4](2018h/Verkefni-4/verkefni-4-nemendur/index.html)
 * [Verkefni 5 og 6](2018h/Verkefni-5/heim/index.html)
+* [bullshit](2019v/Verkefni 2/myblog/_site/index.html)
