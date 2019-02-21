@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@viewport {
+  width: device-width;
+  zoom: 1.0 ;
+}
+* {box-sizing: border-box;}
+
+header {
+  background-color: #33ccff;
+  text-align: center;
+  
+  
+ }
+header h1 {
+  font-family: 'Lobster';
+  font-size: 44px;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.navlink {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 400;
+}
+body {
+  background: linear-gradient(to right, #66ff99, #99ff66);
+  display: flex;
+  flex-flow: column;
+}
+nav {
+  padding: 1em;
+  text-align: center;
+  font-size: 22px;
+}
+.content {
+  
+}
+.content img {
+  width: 40%;
+  height: auto;
+}
+.content h1 {
+  text-align: center;
+}
+.content p {
+  font-size: 20px;
+  line-height: 30px
+}
 .current {
-    color: green;
+  color: #000066;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+nav a:hover {
+  color: red;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    width: 65%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+@media screen and (max-width: 700px) {
+  .content img {
+    width: 90%;
+    height: auto;
+  }
+}
