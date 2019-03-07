@@ -41,7 +41,8 @@ header h1 {
 body {
   background: linear-gradient(to right, #66ff99, #99ff66);
   display: flex;
-  flex-flow: column; }
+  flex-flow: column;
+  margin: 0px; }
 
 nav {
   padding: 1em;
