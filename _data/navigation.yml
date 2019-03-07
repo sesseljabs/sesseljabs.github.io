@@ -1,8 +1,12 @@
 - name: Home
   link: /
+  icon: "&#xe900;"
 - name: About
   link: /about.html
+  icon: "&#xe923;"
 - name: Blog
   link: /blog.html
+  icon: "&#xe905;"
 - name: Staff
   link: /staff.html
+  icon: "&#xe972;"
