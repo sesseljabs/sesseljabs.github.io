@@ -1,5 +1,71 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Oswald|Ubuntu");
+.adlink {
+  border: black solid 5px;
+  background-color: red;
+  width: 100%;
+  margin: auto;
+  font-family: 'Ubuntu';
+  height: 490px;
+  width: 230px;
+  background-color: pink;
+  color: black;
+  margin: auto;
+  border: gray solid 4px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center; }
+  .adlink img {
+    height: 200px;
+    width: auto;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    animation-name: rotateimg;
+    animation-duration: 1s; }
+
+.sub button {
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: relative;
+  animation-name: buttonmove;
+  animation-duration: 4s;
+  animation-delay: -4s;
+  width: 100px;
+  height: 50px;
+  background-color: lightcoral;
+  border-radius: 10px; }
+
+button:hover {
+  background-color: red; }
+
+@keyframes buttonmove {
+  0% {
+    top: -200px;
+    left: -60px; }
+  30% {
+    top: -135px;
+    left: 60px; }
+  55% {
+    top: -25px;
+    left: -4px; }
+  68% {
+    top: -60px;
+    left: -60px; }
+  100% {
+    top: -200px;
+    left: 60px; } }
+@keyframes rotateimg {
+  0% {
+    transform: rotate(-7deg); }
+  50% {
+    transform: rotate(7deg); }
+  100% {
+    transform: rotate(-7deg); } }
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot");
@@ -92,7 +158,7 @@ footer {
     margin-left: 5%;
     margin-right: 5%; }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 48em) {
   .content {
     width: 65%;
     padding: 1em;
@@ -108,8 +174,17 @@ footer {
 
   .logo {
     width: 100px;
-    height: auto; } }
-@media screen and (max-width: 700px) {
+    height: auto; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 12% auto; }
+
+  .left {
+    display: flex;
+    flex-flow: column;
+    margin: 0px; } }
+@media screen and (max-width: 48em) {
   .content {
     margin: 10px; }
     .content img {
@@ -118,4 +193,13 @@ footer {
 
   .logo {
     width: 25%;
-    height: auto; } }
+    height: auto; }
+
+  .grid {
+    display: flex;
+    flex-flow: column-reverse; }
+
+  .left {
+    display: flex;
+    flex-flow: column;
+    margin: 0px; } }

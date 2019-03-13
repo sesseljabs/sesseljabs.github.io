@@ -71,9 +71,6 @@ nav {
   text-align: center;
   font-size: 22px;
 }
-.content {
-  
-}
 .content img {
   width: 40%;
   height: auto;
@@ -111,7 +108,7 @@ footer {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 48em) {
   .content {
     width: 65%;
     padding: 1em;
@@ -130,8 +127,22 @@ footer {
     width: 100px;
     height: auto;
   }
+
+  // Grid
+  .grid {
+   display: grid;
+   grid-template-columns: 12% auto;
+  }
+  .left {
+    display: flex;
+  flex-flow: column;
+  margin: 0px;
+  }
+  .right {
+
+  }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 48em) {
   .content {
     img {
       width: 90%;
@@ -142,6 +153,15 @@ footer {
   .logo {
     width: 25%;
     height: auto;
+  }
+  .grid {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .left {
+    display: flex;
+  flex-flow: column;
+  margin: 0px;
   }
 }
 // búið, takk og bless
