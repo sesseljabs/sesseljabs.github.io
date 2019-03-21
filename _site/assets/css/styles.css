@@ -173,15 +173,21 @@ footer {
 
   .grid {
     display: grid;
-    grid-template-columns: 20% auto 20%; }
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: "lef cont chat"; }
 
   .left {
     display: flex;
     flex-flow: column;
-    margin: 0px; }
+    margin: 0px;
+    grid-area: lef; }
 
   .chat {
-    margin-top: 80px; }
+    margin-top: 80px;
+    grid-area: chat; }
+
+  .right {
+    grid-area: cont; }
 
   nav {
     padding: 1em;
