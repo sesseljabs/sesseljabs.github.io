@@ -40,6 +40,11 @@
 }
 * {box-sizing: border-box;}
 
+#body {
+  width: device-width;
+  zoom: 1.0;
+}
+
 header {
   background-color: #33ccff;
   text-align: center;
@@ -63,6 +68,7 @@ body {
   display: flex;
   flex-flow: column;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 .content img {
@@ -86,7 +92,6 @@ body {
 }
 
 
-
 footer {
   a {
     text-decoration: none;
@@ -102,7 +107,7 @@ footer {
 
 @media screen and (min-width: 48em) {
   .content {
-    width: 65%;
+    width: 80%;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -123,12 +128,15 @@ footer {
   // Grid
   .grid {
    display: grid;
-   grid-template-columns: 12% auto;
+   grid-template-columns: 20% auto 20%;
   }
   .left {
     display: flex;
     flex-flow: column;
     margin: 0px;
+  }
+  .chat {
+    margin-top: 80px;
   }
 
     // Nav
@@ -162,8 +170,6 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 22px;
-
-    overflow: hidden;
   }
   nav a:hover {
     color: red;
@@ -216,6 +222,7 @@ footer {
     flex-flow: column;
     padding: 10px;
     background-color: #66ff99;
+    border-radius: 5px;
     a {
       text-decoration: none;
       padding: 5px;
@@ -233,9 +240,17 @@ footer {
   input#toggle:checked ~ nav{
       right: 0;
   }
-  
 
+  .chat {
+    order: -99;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: auto;
+  }
 }
+
+
+
 
 
 .menuInput{
