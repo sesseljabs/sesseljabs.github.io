@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Glósur
+title: Glosur
 ---
 
 # Kafli 1
@@ -143,4 +143,4 @@ Sonur **Baldurs** og **Nönnu Nepsdóttur** heitir **Forseti**. Hann á salinn *
 **Loki** átti fleiri börn. Þrjú átti hann með tröllkonunni **Angurboðu**. Þau voru **Fenrisúlfur**, **Miðgarðsormur** og **Hel**. Goðin vissu af ætterni barnanna og vissu að af þeim myndi koma mikil óheppni og ákváðu að taka þau.
 * **Miðgarðsormi** var kastað út í djúpa sjóinn. Hann varð svo stór að hann hringaði sig um öll lönd og bítur í sporðinn á sér.
 * **Hel** var sett í **Niflheim** og fékk vald yfir níu heimunum þar. Þar fara þeir sem deyja úr elli eða veikindum. Salurinn hennar heitir **Éljúðnir**, diskur hennar **Hungur** og hnífurinn hennar **Sultur**. Húð hennar er hálf blá og hálf húðlituð.
-* **Fenrisúlfur** var hafður hjá ásunum. **Týr** var sá eini sem þorði að fóðra hann. Enn hann óx svo mikið að spáð var að hann myndi skaða þau. Þau gerðu fjöturinn **Læðing** en hann hélt úlfinum ekki. Annar fjötur var **Drómi** en úlfurinn slapp líka úr honum. Seinast létu þau dverga gera fjötur úr *dyni kattarins, skeggi konunnar, rótum bjargsins, sinum bjarnarins og anda fisksins*. Sá fjötur hét ***Gleipnir***. Æsirnir skoruðu á úlfinn að reyna að slepa úr fjötrunum. Hann treysti þeim ekki og vildi láta einhvern leggja hönd sína að veði svo að þau leysi hann út eftirá. Úlfurinn losnaði ekki og Týr lét hönd sína. Þau festu úlfinn niðri í jörðinni og verður þar til ragnarökkurs. Það er spáð að hann muni granda **Óðni**.
+* **Fenrisúlfur** var hafður hjá ásunum. **Týr** var sá eini sem þorði að fóðra hann. Enn hann óx svo mikið að spáð var að hann myndi skaða þau. Þau gerðu fjöturinn **Læðing** en hann hélt úlfinum ekki. Annar fjötur var **Drómi** en úlfurinn slapp líka úr honum. Seinast létu þau dverga gera fjötur úr *dyni kattarins, skeggi konunnar, rótum bjargsins, sinum bjarnarins og anda fisksins*. Sá fjötur hét ***Gleipnir***. Æsirnir skoruðu á úlfinn að reyna að slepa úr fjötrunum. Hann treysti þeim ekki og vildi láta einhvern leggja hönd sína að veði svo að þau leysi hann út eftirá. Úlfurinn losnaði ekki og Týr lét hönd sína. Þau festu úlfinn niðri í jörðinni og verður þar til ragnarökkurs. Það er spáð að hann muni granda **Óðni**. 
