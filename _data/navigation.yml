@@ -10,3 +10,6 @@
 - name: Staff
   link: /staff.html
   icon: "&#xe972;"
+- name: Verkefni
+  link: /verkefni.html
+  icon: "&#xe917;"
