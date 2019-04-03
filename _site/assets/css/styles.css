@@ -279,9 +279,7 @@ footer {
     order: -99;
     padding-top: 50px;
     padding-bottom: 30px;
-    margin: auto; }
-
-  /* Table */ }
+    margin: auto; } }
 .menuInput {
   position: fixed;
   top: -9999em;
