@@ -1,0 +1,43 @@
+.umsokn {
+    margin-top: 3em;
+    font-family: 'Ubuntu';
+    #field {
+        display: flex;
+        flex-flow: column;
+        padding: 15px;
+        border: 2px solid #999999;
+        border-radius: 7px;
+        background-color: #dfdfdf;
+    }
+    label {
+        display: block;
+        margin: 5px;
+
+        input, textarea {
+            border-radius: 2px;
+            border: 0;
+            padding: 5px;
+            margin: 10px 1px;
+        }
+        input[type=radio]:nth-child(n+3), input[type=checkbox]:nth-child(n+3){
+            margin-left: 20px;
+        }
+        select {
+            border: 0;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        select:active, select:focus{
+            background-color: #ccc;
+        }
+        #send {
+            background-color: #aaaaaa;
+            padding: 10px;
+            border-radius: 8px;
+            transition: all .1s ease-in-out;
+        }
+        #send:hover {
+            background-color: #6cbb47;
+        }
+    }
+}

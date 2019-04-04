@@ -143,4 +143,58 @@ Sonur **Baldurs** og **Nönnu Nepsdóttur** heitir **Forseti**. Hann á salinn *
 **Loki** átti fleiri börn. Þrjú átti hann með tröllkonunni **Angurboðu**. Þau voru **Fenrisúlfur**, **Miðgarðsormur** og **Hel**. Goðin vissu af ætterni barnanna og vissu að af þeim myndi koma mikil óheppni og ákváðu að taka þau.
 * **Miðgarðsormi** var kastað út í djúpa sjóinn. Hann varð svo stór að hann hringaði sig um öll lönd og bítur í sporðinn á sér.
 * **Hel** var sett í **Niflheim** og fékk vald yfir níu heimunum þar. Þar fara þeir sem deyja úr elli eða veikindum. Salurinn hennar heitir **Éljúðnir**, diskur hennar **Hungur** og hnífurinn hennar **Sultur**. Húð hennar er hálf blá og hálf húðlituð.
-* **Fenrisúlfur** var hafður hjá ásunum. **Týr** var sá eini sem þorði að fóðra hann. Enn hann óx svo mikið að spáð var að hann myndi skaða þau. Þau gerðu fjöturinn **Læðing** en hann hélt úlfinum ekki. Annar fjötur var **Drómi** en úlfurinn slapp líka úr honum. Seinast létu þau dverga gera fjötur úr *dyni kattarins, skeggi konunnar, rótum bjargsins, sinum bjarnarins og anda fisksins*. Sá fjötur hét ***Gleipnir***. Æsirnir skoruðu á úlfinn að reyna að slepa úr fjötrunum. Hann treysti þeim ekki og vildi láta einhvern leggja hönd sína að veði svo að þau leysi hann út eftirá. Úlfurinn losnaði ekki og Týr lét hönd sína. Þau festu úlfinn niðri í jörðinni og verður þar til ragnarökkurs. Það er spáð að hann muni granda **Óðni**. 
+* **Fenrisúlfur** var hafður hjá ásunum. **Týr** var sá eini sem þorði að fóðra hann. Enn hann óx svo mikið að spáð var að hann myndi skaða þau. Þau gerðu fjöturinn **Læðing** en hann hélt úlfinum ekki. Annar fjötur var **Drómi** en úlfurinn slapp líka úr honum. Seinast létu þau dverga gera fjötur úr *dyni kattarins, skeggi konunnar, rótum bjargsins, sinum bjarnarins og anda fisksins*. Sá fjötur hét ***Gleipnir***. Æsirnir skoruðu á úlfinn að reyna að slepa úr fjötrunum. Hann treysti þeim ekki og vildi láta einhvern leggja hönd sína að veði svo að þau leysi hann út eftirá. Úlfurinn losnaði ekki og Týr lét hönd sína. Þau festu úlfinn niðri í jörðinni og verður þar til ragnarökkurs. Það er spáð að hann muni granda **Óðni**.
+
+# Kafli 35
+
+### Ásynjurnar eru:
+- **Frigg** er æðst. Hún er kona **Óðins** og á bæinn **Fensali**.
+- **Sága** býr á **Sökkvabekk**
+- **Eir** er læknir
+- **Gefjun** er mær og gyðja stúlkna sem deyja meyjar.
+- **Fulla** er mær og gætir skóklæða **Friggjar**
+- **Freyja** er tignust með **Frigg**. Hún er gift **Óði** og á **Hnoss**. **Óður** fór í burtu frá **Freyju** og hún grætur gullnum tárum.
+- **Sjöfn** gerir ástina
+- **Lofn** er svo góð að Frigg eða Óðinn leyfa henni að ganga meðal manna.
+- **Vár** hlýðir á einkamál manna og refsar þeim sem svíkja loforð.
+- **Vör** er vitur og spurul svo að engu má henni leyna. 
+- **Syn** gætir dyra í höllinni og lokar fyrir þeim sem mega ekki koma inn. 
+- **Hlín** gætir þeirra sem **Frigg** vill forða við hættu.
+- **Snotra** er vitur og látprúð. 
+- **Gná** er send af **Frigg** í ýmsar sendiferðir. Hún á hestinn **Hófvarpni**.
+
+# Kafli 36
+
+Fleiri þjóna **Valhöll**. Nokkrar fleiri ásynjur eru **Valkyrjur** og velja þær menn sem til **Valhallar** deyja í bardaga. **Jörð** og **Rindur** teljast líka sem ásynjur.
+
+# Kafli 37
+
+**Gymir** á konuna **Aurboðu** sem var bergrisi. Þau áttu **Gerði** sem var allra kvenna fegurst. **Freyr** stalst til þess að setjast í hásæti **Óðins** (**Hliðskjálf**) og sá þá allt í heiminum. Hann sá **Gerði** og varð samstundis ástfanginn. **Freyr** gat hvorki borðað né sofið. **Njörður** bað **Skírni**, skósvein **Freys** um að spyrja **Frey** hvað var að. **Freyr** sagði honum frá konunni og bað hann um að fara og biðja um hönd hennar og taka hana heim hvað sem faðir hennar sagði. **Skírnir** samþykkti í staðinn fyrir sverð **Freys** sem gat barist sjálft. Níu dögum seinna var haldið brúðkaup. Vegna þess að hann lét sverð sitt mun hann deyja í Ragnarökum.
+
+# Kafli 38
+
+Það eru margir í **Valhöll**. Gölturinn **Sæhrímnir** hefur endalaust kjöt og hann er soðinn á hverjum degi en er orðinn heill að kveldi. Við borð **Óðins** eru úlfarnir **Geri** og **Freki** sem **Óðinn** fóðrar en hann sjálfur þarf ekki mat heldur nægir honum að drekka vín. Hrafnarnir **Huginn** og **Muninn** sitja á öxlum hans og segja honum tíðindi sem þeir heyra og sjá. 
+
+# Kafli 39
+
+Úr spenum geitarinnar **Heiðrúnar** rennur endalaus mjöður sem fyllir heilt ker daglega. Hún bítur lauf af trénu **Léraði**. Af honum bítur hjörturinn **Eikþyrnir** líka.
+
+# Kafli 40
+
+**Valhöll** er gríðarstór, með 540 hurðum og í hverri hurð komast 800 einherjar. 
+
+# Kafli 41
+
+Þegar einherjarnir eru ekki að drekka eru þeir úti og leikur þeirra er að berjast og fella hvern annan. Á kvöldin lifna þeir aftur við og fara aftur til **Valhallar**.
+
+# Kafli 42
+
+**Sleipnir** er hestur **Óðins**. Þegar **Miðgarður** var nýr fengu goðin smið til að gera vegg í kringum **Miðgarð** á einum vetri í staðinn fyrir **Freyju, sól og mána**. Hann hafði hestinn **Svaðilfara** til að hjálpa sér. Hesturinn dró svo stór björg að æsirnir voru hræddir um að þau þyrftu að láta hann fá **Freyju**. **Loki** var sá sem leyfði honum að nota hestinn og goðin sögðu að ef smiðurinn næði að klára myndi hann deyja. **Loki** breytti sér í hryssu og **Svaðilfari** elti hann út í skóg og smiðurinn gat ekki klárað vegginn. Smiðurinn sá að hann gat ekki klárað vegginn og breytti sér aftur í jötunn. Þá kom **Þór** og drap hann með **Mjölni**. **Loki** hafði orðið óléttur eftir **Svaðilfara** og eignaðist grátt folald með 8 fætur.
+
+# Kafli 43
+
+**Skíðblaðnir** er best skipa en **Naglfari** er mest skipa. **Múspell** á það. Nokkrir dvergar gerðu **Skíðblaðni** og gáfu **Frey** það. Æsirnir skipa það með vopnum og herbúnaði og það hefur byr hvert sem það fer. Þegar það er ekki í notkun er hægt að brjóta það saman og hafa í pyngju sinni.
+
+# Kafli 44
+
+**Þór** og **Loki** eru á ferð og gista þeir á bæ einum. Börnin þar hétu **Þjálfi** og **Röskva**. Um kvöldið slátraði **Þór** höfrunum sínum og eldaði þá. Hann bað ábúendur bæjarins um að henda beinunum í hrúgu eftir að hafa borðað af þeim. **Þjálfi** braut lærbein annars hafursins til að fá merginn úr því. Þegar **Þór** sveiflaði hamri sínum yfir beinunum vöknuðu hafrarnir til lífs en annar var fótbrotinn. Hann hræddi húsfólkið og í staðinn fyrir að drepa þau tók hann **Þjálfa** og **Röskvu** og hafði fyrir þjónustufólk sitt.

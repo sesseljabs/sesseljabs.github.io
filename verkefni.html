@@ -2,76 +2,135 @@
 layout: default
 title: Verkefni
 ---
-<!--<div class="verkefni">
-
-    <table>
-        <thead>
-            <tr>
-                <th scope="col"></td>
-                <th scope="col">önn 1</td>
-                <th scope="col">önn 2</td>
-                <th scope="col">önn 3</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>a</td>
-                <td>b</td>
-                <td>c</td>
-                <td>d</td>
-                <td>e</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-
-</div>-->
+<!--
 <table>
-<TR><TH>Nafn</TH>
-    <TH>Tegund</TH>
-    <TH>Dagur frá</TH>
-    <TH>Dagur til</TH>
-    </TR>
-    <TR><TD>Dröfn Gudjónsdóttir</TD>
-    <TD>Family</TD>
-    <TD>12.04.2019</TD>
-    <TD>18.04.2019</TD>
-    </TR>
-    <TR><TD>Gudrídur Sigurjónsdóttir</TD>
-    <TD>One bed</TD>
-    <TD>13.04.2019</TD>
-    <TD>15.04.2019</TD>
-    </TR>
-    <TR><TD>Karl Sigmundsson</TD>
-    <TD>Suite</TD>
-    <TD>30.04.2019</TD>
-    <TD>15.05.2019</TD>
-    </TR>
-    <TR><TD>Sturla Jónsson</TD>
-    <TD>Two beds</TD>
-    <TD>12.05.2019</TD>
-    <TD>21.05.2019</TD>
-    </TR>
-    <TR><TD>Gylfi Kristjánsson</TD>
-    <TD>One bed</TD>
-    <TD>15.05.2019</TD>
-    <TD>23.05.2019</TD>
-    </TR>
-    <TR><TD>Sigrídur Karlsdóttir</TD>
-    <TD>Family</TD>
-    <TD>24.05.2019</TD>
-    <TD>15.06.2019</TD>
-    </TR>
-    <TR><TD>Odinn Þórsson</TD>
-    <TD>One bed</TD>
-    <TD>10.06.2019</TD>
-    <TD>15.06.2019</TD>
-    </TR>
-    <TR><TD>Gudrídur Sigurjónsdóttir</TD>
-    <TD>One bed</TD>
-    <TD>17.06.2019</TD>
-    <TD>19.06.2019</TD>
-    </TR>
-    </table>
+    <caption>Starfsfólk</caption>
+    <thead>
+        <tr>
+            <td scope="col">Nafn</td>
+            <td scope="col">Kennitala</td>
+            <td scope="col">Heimilisfang</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td data-label="nafn">Sturla Jónsson</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Stauragötu 30</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Karl Sigmundsson</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Götugötu 52</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Sigrídur Karlsdóttir</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Hvergelmi 12</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Gudrídur Sigurjónsdóttir</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Hvergilandi 64</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Óðinn Þórsson</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Núbbabakka 2</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Gylfi Kristjánsson</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Bakkaberg 9</td>
+        </tr>
+
+        <tr>
+            <td data-label="nafn">Dröfn Gudjónsdóttir</td>
+            <td data-label="kennitala">123456-7890</td>
+            <td data-label="heimilisfang">Grjótmöl 23</td>
+        </tr>
+    </tbody>
+</table>
+-->
+
+
+<table>
+    <caption><h2>Starfsfólk</h2></caption>
+    <thead>
+        <tr>
+            <th scope="col">Nafn</th>
+            <th scope="col">Kennitala</th>
+            <th scope="col">Heimilisfang</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in site.data.table %}
+        <tr>
+            <td data-label="Nafn">{{ item.nafn }}</td>
+            <td data-label="Kennitala">{{ item.kennitala }}</td>
+            <td data-label="Heimilisfang">{{ item.heimilisfang }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Idk hvað</td>
+            <td>skal setja</td>
+            <td>í footer</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<form class="umsokn">
+    <fieldset id="field">
+        <legend>Pöntun</legend>
+        <label for="nafn">Nafn<br>
+            <input type="text" name="nafn" placeholder="Nafn" required>
+        </label>
+
+        <label for="netfang">Netfang<br>
+            <input type="email" name="netfang" placeholder="Netfang" required>
+        </label>
+
+        <label for="dag">Hvaða dag viltu fá þetta?
+            <input type="date" name="dag">
+        </label>
+
+        <label for="tegund">Veldu aukaatriði<br>
+            <input type="checkbox" name="tegund"> Mjúkur 
+            <input type="checkbox" name="tegund"> Breiður 
+            <input type="checkbox" name="tegund"> Swirly
+            <input type="checkbox" name="tegund"> Fade
+        </label>
+
+        <label for="choice">Veldu tegund<br>
+            <select name="choice">
+                <option>Hestur</option>
+                <option>Hundur</option>
+                <option>Kolkrabbi</option>
+                <option>Demogorgon</option>
+            </select>
+        </label>
+        <label>Hvaða stærð viltu?<br>
+            <input type="radio" name="val" required> Mini 4"
+            <input type="radio" name="val"> Lítill 6"
+            <input type="radio" name="val"> Miðlungs 8"
+            <input type="radio" name="val"> Stór 10"
+            <input type="radio" name="val"> Risa 12"
+        </label>
+
+        <label>Athugasemd<br>
+            <textarea></textarea>
+        </label>
+        <label for="submit">
+            <input type="submit" name="submit" value="Senda" id="send">
+        </label>
+    </fieldset>
+</form>

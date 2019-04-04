@@ -1,34 +1,62 @@
-@media screen and (min-width: 48em){
-    .verkefni {
-        table {
-            table-layout: fixed;
-            width: 100%;
-
-            thead {
-                float: left;
-                th{
-                    display: block;
-                }
-            }
-            tbody {
-                float: right;
-                tr th{
-                    background-color: #f8f8f8;
-                    border: 1px solid #ddd;
-                    padding: .35em;
-                }
-            }
-        }
-    }
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-@media screen and (max-width: 820px){
-    .verkefni {
+table {
+    border-radius: 7px;
+    overflow: hidden;
+}
 
-        width: fit-content;
-        margin: auto;
-    
-        
-    
-      }
+table tr {
+    background-color: #ffffffbb;
+    padding: 13px;
+    border-radius: 5px;
+}
+table tbody tr:nth-child(2n){
+    background-color: #dededebb;
+}
+
+table th {
+    background-color: #bbbbbbcc;
+    border: 0;
+    padding: 15px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table tfoot tr {
+    background-color: #bbbbbbbb;
+}
+
+
+@media screen and (max-width: 600px) {
+    table thead {
+        display: none;
+    }
+    table tfoot {
+        display: none;
+    }
+
+    table tr {
+        display: block;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    table td {
+        border-bottom: 1px solid #333;
+        display: block;
+        text-align: right;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+    }
 }

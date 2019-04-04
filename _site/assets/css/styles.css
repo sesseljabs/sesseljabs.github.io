@@ -42,7 +42,8 @@
   border-radius: 10px; }
 
 button:hover {
-  background-color: red; }
+  background-color: red;
+  transition: .1s ease-in-out all; }
 
 @keyframes buttonmove {
   0% {
@@ -346,21 +347,86 @@ footer {
 .icon-twitter:before {
   content: "\ea96"; }
 
-@media screen and (min-width: 48em) {
-  .verkefni table {
-    table-layout: fixed;
-    width: 100%; }
-    .verkefni table thead {
-      float: left; }
-      .verkefni table thead th {
-        display: block; }
-    .verkefni table tbody {
-      float: right; }
-      .verkefni table tbody tr th {
-        background-color: #f8f8f8;
-        border: 1px solid #ddd;
-        padding: .35em; } }
-@media screen and (max-width: 820px) {
-  .verkefni {
-    width: fit-content;
-    margin: auto; } }
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+table {
+  border-radius: 7px;
+  overflow: hidden; }
+
+table tr {
+  background-color: #ffffffbb;
+  padding: 13px;
+  border-radius: 5px; }
+
+table tbody tr:nth-child(2n) {
+  background-color: #dededebb; }
+
+table th {
+  background-color: #bbbbbbcc;
+  border: 0;
+  padding: 15px; }
+
+table td {
+  padding: 10px;
+  text-align: center; }
+
+table tfoot tr {
+  background-color: #bbbbbbbb; }
+
+@media screen and (max-width: 600px) {
+  table thead {
+    display: none; }
+
+  table tfoot {
+    display: none; }
+
+  table tr {
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 20px; }
+
+  table td {
+    border-bottom: 1px solid #333;
+    display: block;
+    text-align: right; }
+
+  table td::before {
+    content: attr(data-label);
+    float: left; } }
+.umsokn {
+  margin-top: 3em;
+  font-family: 'Ubuntu'; }
+  .umsokn #field {
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+    border: 2px solid #999999;
+    border-radius: 7px;
+    background-color: #dfdfdf; }
+  .umsokn label {
+    display: block;
+    margin: 5px; }
+    .umsokn label input, .umsokn label textarea {
+      border-radius: 2px;
+      border: 0;
+      padding: 5px;
+      margin: 10px 1px; }
+    .umsokn label input[type=radio]:nth-child(n+3), .umsokn label input[type=checkbox]:nth-child(n+3) {
+      margin-left: 20px; }
+    .umsokn label select {
+      border: 0;
+      padding: 5px;
+      border-radius: 4px; }
+    .umsokn label select:active, .umsokn label select:focus {
+      background-color: #ccc; }
+    .umsokn label #send {
+      background-color: #aaaaaa;
+      padding: 10px;
+      border-radius: 8px;
+      transition: all .1s ease-in-out; }
+    .umsokn label #send:hover {
+      background-color: #6cbb47; }
