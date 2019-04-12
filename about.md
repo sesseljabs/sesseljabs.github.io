@@ -8,4 +8,4 @@ title: About
 
 I'm Jill, the main writer for this blog. Yes, that's a picture of me.
 
-Integer aliquam libertyui odio, ut congue nibh tempor a. Fusce urna nunc, rutrum lacinia felis condimentum, ornare suscipit lacus. Aenean accumsan ante a tellus commodo, ullamcorper tristique risus posuere. Aenean imperdiet tortor urna, vel pulvinar risus volutpat condimentum.
+Integer aliquam liberals odio, ut congue nibh tempor a. Fusce urna nunc, rutrum lacinia felis condimentum, ornare suscipit lacus. Aenean accumsan ante a tellus commodo, ullamcorper tristique risus posuere. Aenean imperdiet tortor urna, vel pulvinar risus volutpat condimentum.
